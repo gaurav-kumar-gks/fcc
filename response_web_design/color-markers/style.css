@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.cap {
+    width: 60px;
+    height: 5px;
+}
+
+.sleeve {
+    width: 63%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap, .sleeve {
+    display: inline-block;
+}
+
+.red {
+    background: linear-gradient(rgb(236, 137, 23), rgb(227, 119, 35), rgb(185, 90, 12));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+
+.green {
+    background: linear-gradient(#7ed910, #54b92b, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+
+.white {
+    background: linear-gradient(hsl(186, 30%, 87%), hsl(224, 30%, 85%), hsl(240, 12%, 72%));
+    box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
+}
